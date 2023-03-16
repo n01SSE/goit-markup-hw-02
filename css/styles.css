@@ -1,10 +1,18 @@
+:root
+
+/* Начало */
 body{
-    font-family: 'Roboto', "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 
 }
-              /* Точки */
+              /* Точки  и Силки*/
 .list{
     list-style: none;
+}
+.link{
+    text-decoration: none;
 }
 
 
@@ -14,35 +22,43 @@ body{
 }
 
 .header-logo {
-font-family: 'Raleway';
+font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-        color: #2E2F42;
+        color: #4D5AE5;
 }
-.header-Wed {
-    font-family: 'Raleway';
+.header-studio {
+    font-family: "Raleway", sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         display: flex;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 .header-link {
+    text-decoration: none;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2E2F42;
+}
+.header-link:hover,
+.header-link:focus{
+   color:#404bbf;
+}
+.address{
+    font-style: normal;
 }
 
 .Contact-link {
@@ -74,12 +90,20 @@ color: #ffffff;
  }
 
  .button-hero{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
     align-items: center;
     color: #ffffff;
     background-color: #4D5AE5;
  }
-
+.button-hero:hover,
+.button-hero:focus{
+    background-color:#404BBF ;
+}
  /* section2 */
  .feature-subtitle{
     font-weight: 500;
@@ -111,6 +135,20 @@ color: #ffffff;
  .team-section{
         background-color: #F4F4FD;
  }
+
+ .team-item{
+    background-color: #ffffff;
+ }
+
+.team-title{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            color: #2E2F42;
+}
 
 .team-subtitle{
     font-weight: 500;
@@ -150,21 +188,21 @@ color: #ffffff;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    color:#F4F4FD; 
+    color:#4d5ae5;
 }
 
-.footer-Wed {
+.footer-studio {
     
-font-family: 'Raleway';
+font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-line-height: 1.16;
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;
+color: #f4f4fd;
 }
 
 
