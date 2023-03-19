@@ -181,9 +181,10 @@ color: #ffffff;
 }
 
 .footer-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         display: flex;
         align-items: center;
         letter-spacing: 0.03em;
@@ -209,7 +210,20 @@ color: #f4f4fd;
 
 /* portfolio */
 .button-link{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
+    background-color: #F4F4FD;
+    color: #4d5ae5;
+}
+
+.button-link:hover,
+.button-link:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
  .photo-title{
@@ -220,7 +234,7 @@ color: #f4f4fd;
         color: #2E2F42;
 }
 
-.photo-title{
+.photo-list{
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
