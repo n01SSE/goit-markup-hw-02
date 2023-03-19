@@ -66,37 +66,20 @@ font-family: "Raleway", sans-serif;
     font-style: normal;
 }
 
-.Contact-mail{
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
-
-.Contact-link {
+.contact-link {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.Contact-link:hover,
-.Contact-link:focus{
+.contact-link:hover,
+.contact-link:focus{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #404BBF;}
-
-.Contact-mail:hover,
-.Contact-mail:focus {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #404BBF;
-}
 
 /* section1 */
 .section-hero{
