@@ -3,6 +3,8 @@
     --lofo-web: #404bbf;
     --lofo-stydio: #2e2f42;
     --bg-color-body:#ffffff;
+    --dop-bg-color: #F4F4FD;
+    --button-color: #4D5AE5
 }
 
 /* Начало */
@@ -23,7 +25,7 @@ body{
 
              /* Шапка */
 .header {
-    background-color: #ffffff;
+    background-color: var(--bg-color-body);
 }
 
 .header-logo {
@@ -34,22 +36,23 @@ font-family: "Raleway", sans-serif;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-        color: #4D5AE5;
+        color: var(--button-color);
 }
 .header-studio {
     
-    color: #2e2f42;
+    color: var(--lofo-stydio);
 }
 .header-link {
+    font-weight: 500;
     text-decoration: none;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--lofo-stydio);
 }
 .header-link:hover,
 .header-link:focus{
-   color:#404bbf;
+   color:var(--lofo-web);
 }
 .address{
     font-style: normal;
@@ -59,22 +62,22 @@ font-family: "Raleway", sans-serif;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--color-body);
 }
 .contact-link:hover,
 .contact-link:focus{
-color: #404BBF;}
+color: var(--lofo-web);}
 
 /* section1 */
 .section-hero{
-background-color:#2E2F42;
+background-color:var(--lofo-stydio);
 }
  .hero-title{
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #ffffff;
+color: var(--bg-color-body);
  }
 
  .button-hero{
@@ -85,26 +88,26 @@ color: #ffffff;
     letter-spacing: 0.04em;
     cursor: pointer;
     align-items: center;
-    color: #ffffff;
-    background-color: #4D5AE5;
+    color: var(--bg-color-body);
+    background-color: var(--button-color);
  }
 .button-hero:hover,
 .button-hero:focus{
-    background-color:#404BBF ;
+    background-color:var(--lofo-web) ;
 }
  /* section2 */
  .feature-subtitle{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--lofo-stydio);
  }
 
  .feature-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455;
+    color:var(--color-body);
  }
  /* section3 */
 .product-title{
@@ -113,16 +116,16 @@ color: #ffffff;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--lofo-stydio);
 }
 
 /* section4 */
  .team-section{
-        background-color: #F4F4FD;
+        background-color: var(--dop-bg-color);
  }
 
  .team-item{
-    background-color: #ffffff;
+    background-color: var(--bg-color-body);
  }
 
 .team-title{
@@ -132,27 +135,27 @@ color: #ffffff;
         text-align: center;
             letter-spacing: 0.02em;
             text-transform: capitalize;
-            color: #2E2F42;
+            color: var(--lofo-stydio);
 }
 
 .team-subtitle{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--lofo-stydio);
 }
 
 .team-text{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--color-body);
 }
 
 /* footer */
 
 .footer{
-        background-color: #2E2F42;
+        background-color: var(--lofo-stydio);
 }
 
 .footer-text{
@@ -160,7 +163,7 @@ color: #ffffff;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #F4F4FD;
+        color: var(--bg-color-body);
 }
 
 .footer-logo {
@@ -171,7 +174,7 @@ color: #ffffff;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    color:#4d5ae5;
+    color:var(--button-color);
 }
 
 .footer-studio {
@@ -183,7 +186,7 @@ line-height: 1.17;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #f4f4fd;
+color: var(--dop-bg-color);
 }
 
 
@@ -195,14 +198,14 @@ color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background-color: #F4F4FD;
-    color: #4d5ae5;
+    background-color: var(--dop-bg-color);
+    color: var(--button-color);
 }
 
 .button-link:hover,
 .button-link:focus{
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--bg-color-body);
+    background-color: var(--lofo-web);
 }
 
 .photo-title{
